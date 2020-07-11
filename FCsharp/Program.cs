@@ -6,7 +6,9 @@ namespace Csharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("First C# Application!");
+            string place = "Houston";
+            string message = $"Hello {place}!";
+            Console.WriteLine(message);
         }
     }
 }
